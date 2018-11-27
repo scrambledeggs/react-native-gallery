@@ -1,24 +1,51 @@
 {
-  "name": "react-native-gallery",
-  "version": "0.0.18",
-  "description": "",
-  "main": "library/Gallery.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "react-native-gallery@git+ssh://git@github.com/scrambledeggs/react-native-gallery.git#d61bf24eb63c1cddb6c011834edc0c6147a36f89",
+  "_id": "react-native-gallery@0.0.18",
+  "_inBundle": false,
+  "_integrity": "sha1-gvS7QzMLAJ/1XjLVvq12+HxIs1c=",
+  "_location": "/react-native-gallery",
+  "_phantomChildren": {
+    "react-native-img-cache": "1.5.3",
+    "react-native-view-transformer": "0.0.28"
   },
+  "_requested": {
+    "type": "git",
+    "raw": "react-native-gallery@git+ssh://git@github.com/scrambledeggs/react-native-gallery.git#d61bf24eb63c1cddb6c011834edc0c6147a36f89",
+    "name": "react-native-gallery",
+    "escapedName": "react-native-gallery",
+    "rawSpec": "git+ssh://git@github.com/scrambledeggs/react-native-gallery.git#d61bf24eb63c1cddb6c011834edc0c6147a36f89",
+    "saveSpec": "git+ssh://git@github.com/scrambledeggs/react-native-gallery.git#d61bf24eb63c1cddb6c011834edc0c6147a36f89",
+    "fetchSpec": "ssh://git@github.com/scrambledeggs/react-native-gallery.git",
+    "gitCommittish": "d61bf24eb63c1cddb6c011834edc0c6147a36f89"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+ssh://git@github.com/scrambledeggs/react-native-gallery.git#d61bf24eb63c1cddb6c011834edc0c6147a36f89",
+  "_spec": "react-native-gallery@git+ssh://git@github.com/scrambledeggs/react-native-gallery.git#d61bf24eb63c1cddb6c011834edc0c6147a36f89",
+  "_where": "/Users/jett/codes/booky/booky/app",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/ldn0x7dc/react-native-gallery/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@ldn0x7dc/react-native-view-pager": "0.0.9",
+    "react-native-gesture-responder": "0.1.1",
+    "react-native-transformable-image": "github:scrambledeggs/react-native-transformable-image#master"
+  },
+  "deprecated": false,
+  "description": "A pure JavaScript image gallery component for react-native apps with common gestures like pan, pinch and doubleTap, supporting both iOS and Android.",
+  "homepage": "https://github.com/ldn0x7dc/react-native-gallery#readme",
+  "license": "ISC",
+  "main": "library/Gallery.js",
+  "name": "react-native-gallery",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ldn0x7dc/react-native-gallery.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ldn0x7dc/react-native-gallery/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/ldn0x7dc/react-native-gallery#readme",
-  "dependencies": {
-    "react-native-transformable-image": "github:scrambledeggs/react-native-transformable-image.git#master",
-    "@ldn0x7dc/react-native-view-pager": "0.0.9",
-    "react-native-gesture-responder": "0.1.1"
-  }
+  "version": "0.0.18"
 }
